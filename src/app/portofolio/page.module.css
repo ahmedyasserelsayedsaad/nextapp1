@@ -1,0 +1,69 @@
+.heading{
+    text-align: center;
+    margin-top: 70px;
+}
+.title{
+    background: linear-gradient(to bottom, var(--color-p),var(--color-s));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.aboutcon{
+    display: flex;
+   justify-content: space-around;
+}
+.col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+.text{
+    margin-top: 100px;
+    background: linear-gradient(to bottom, var(--color-p),var(--color-s));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--color-s);
+    font-weight: 700;
+  }
+  .btn{
+    background-color: var(--color-p);
+    font-size: 19px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 17px;
+    border: 2px solid var(--color-s);
+    width: max-content;
+  }
+  .img{
+    border-radius: 17px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: "490px";
+    height: "490px";
+  }
+  .info h3{
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, var(--color-p),var(--color-s));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .info h5{
+    margin-bottom: 10px;
+  }
+  .info{
+    margin-left: 40px;
+  }
+  .bten{
+  padding-left: 30px;
+  margin-top: 20px;
+  }

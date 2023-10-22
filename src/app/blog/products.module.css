@@ -1,0 +1,47 @@
+.maincontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 15px;
+    margin-top: 60px;
+}
+.post{
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 2px solid var(--color-p);
+    border-radius: 27px;
+    transition: all 0.3s ease-in-out;
+}
+.post:hover{
+background-color: black;
+border: 1px solid #fff;
+}
+.post:nth-child(odd){
+    flex-direction: row-reverse;
+    background-color: rgb(248, 247, 246);
+}
+.imgecontainer{
+    position: relative;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.imge{
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.title{
+    background:linear-gradient(to bottom , var(--color-p),var(--color-s)) ;
+    background-clip: text;
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.text{
+    font-size: 15px;
+    color: #999;
+}
+.price{
+    color: var(--color-p);
+}
